@@ -1,0 +1,43 @@
+{
+    "name": "@lvchengbin/cli-table",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "demo": "nodemon test/demo.js",
+        "test-watch": "nodemon --exec npm test",
+        "test": "jasmine --config=test/jasmine.json",
+        "lint": "eslint ./ --cache --ignore-path .eslintignore",
+        "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LvChengbin/cli-table.git"
+    },
+    "keywords": [
+        "table",
+        "format",
+        "console",
+        "cli",
+        "command",
+        "tty"
+    ],
+    "author": "LvChengbin <lvchengbin59@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LvChengbin/cli-table/issues"
+    },
+    "homepage": "https://github.com/LvChengbin/cli-table#readme",
+    "dependencies": {
+        "@lvchengbin/is": "0.0.22",
+        "cli-style": "0.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^5.5.0",
+        "jasmine": "^3.2.0",
+        "nodemon": "^1.18.4",
+        "pre-commit": "^1.2.2",
+        "random-world": "^1.2.1",
+        "strip-ansi": "^4.0.0"
+    }
+}
