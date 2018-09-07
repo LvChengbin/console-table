@@ -26,7 +26,7 @@ const table = new Table( obj );
 
 console.log( table );
 ```
-![Screenshot](https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/map.jpg)
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/map.jpg" width="500" />
 
 To render an `Array` as table:
 
@@ -49,7 +49,7 @@ table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 console.log( table );
 ```
 
-![Screenshot](https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/table.jpg)
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/table.jpg" width="500" />
 
 To set styles for table cells or table header:
 
@@ -90,4 +90,4 @@ table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 console.log( table );
 ```
 
-<img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/style.png" width="200" />
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/style.png" width="500" />
