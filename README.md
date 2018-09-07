@@ -90,4 +90,4 @@ table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 console.log( table );
 ```
 
-![Screenshot](https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/style.png)
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/style.png" width="200" />
