@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/LvChengbin/cli-table#readme",
     "dependencies": {
-        "@lvchengbin/is": "0.0.22",
+        "@lvchengbin/is": "0.0.24",
         "cli-style": "0.0.3"
     },
     "devDependencies": {
@@ -36,6 +36,6 @@
         "nodemon": "^1.18.4",
         "pre-commit": "^1.2.2",
         "random-world": "^1.2.1",
-        "strip-ansi": "^4.0.0"
+        "strip-ansi": "^5.0.0"
     }
 }
