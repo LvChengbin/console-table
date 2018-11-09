@@ -1,5 +1,7 @@
 # cli-table
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/cli-table.svg)](https://greenkeeper.io/)
+
 Simply to render `Object`s or `Array`s as tables on the command line in node.js scripts.
 
 ## Installation
