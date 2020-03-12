@@ -31,4 +31,4 @@ table.rows[ 3 ].cells[ 2 ].style = {
 
 table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 
-console.log( table );
+console.log( table.inspect() );

@@ -24,7 +24,7 @@ for( let i = 0; i < 10; i += 1 ) {
 
 const table = new Table( obj ); 
 
-console.log( table );
+console.log( table.inspect() );
 ```
 <img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/map.jpg" width="500" />
 
@@ -46,7 +46,7 @@ const table = new Table( [
 
 table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 
-console.log( table );
+console.log( table.inspect() );
 ```
 
 <img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/table.jpg" width="500" />
@@ -87,7 +87,7 @@ table.rows[ 3 ].cells[ 2 ].style = {
 
 table.setHeader( [ 'Header1', 'Header2', 'Header3', 'Header4' ] );
 
-console.log( table );
+console.log( table.inspect() );
 ```
 
 <img src="https://raw.githubusercontent.com/LvChengbin/cli-table/master/screenshots/style.png" width="500" />

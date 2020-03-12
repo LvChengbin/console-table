@@ -9,4 +9,4 @@ for( let i = 0; i < 10; i += 1 ) {
 
 const table = new Table( obj ); 
 
-console.log( table );
+console.log( table.inspect() );
