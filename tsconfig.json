@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "lib" : [ "ES2018" ],
+        "target": "ES2018",
+        "strict" : true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "declaration" : true
+    },
+    "include": [ "src/**/*" ],
+    "exclude": [ "node_modules", "dist" ]
+}

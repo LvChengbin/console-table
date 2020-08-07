@@ -1,17 +1,16 @@
 {
-    "name": "@lvchengbin/cli-table",
-    "version": "0.0.1",
-    "description": "Simply to render `Object`s or `Array`s as tables on the command line in node.js scripts.",
-    "main": "index.js",
+    "name": "@lvchengbin/console-table",
+    "version": "0.0.0",
+    "description": "Simply to format `Object`s or `Array`s with table style on the command line in node.js and browsers' console.",
+    "main": "dist/index.js",
+    "browser" : {
+    },
     "scripts": {
         "demo": "nodemon test/demo.js",
         "lint": "eslint ./ --cache --ignore-path .eslintignore",
         "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/LvChengbin/cli-table.git"
-    },
+    "repository": "git@github.com:LvChengbin/console-table.git",
     "keywords": [
         "table",
         "format",
@@ -28,15 +27,16 @@
     },
     "homepage": "https://github.com/LvChengbin/cli-table#readme",
     "dependencies": {
-        "@lvchengbin/is": "0.0.27",
-        "cli-style": "0.0.3"
+        "cli-style": "^0.0.5"
     },
     "devDependencies": {
-        "eslint": "^7.0.0-alpha.2",
-        "jasmine": "^3.5.0",
-        "nodemon": "^2.0.2",
-        "pre-commit": "^1.2.2",
+        "@types/node": "^14.0.27",
+        "@typescript-eslint/eslint-plugin": "^3.8.0",
+        "@typescript-eslint/parser": "^3.8.0",
+        "eslint": "^7.6.0",
         "random-world": "^1.2.1",
-        "strip-ansi": "^6.0.0"
+        "strip-ansi": "^6.0.0",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
     }
 }
